@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home</title>
+</head>
+<body>
+
+
+
+
+<input type="button" name="btn" id="btn" value="click here">
+<div id="div"></div>
+
+
+
+	<script src="jquery-3.4.1.min.js"></script>
+	<script src="script.js"></script>
+<script>
+	// var  newHeading=document.CreateElement('h1');
+	// var  newparagraph=document.CreateElement('p');
+
+	// newHeading.innerHTML = "This is a heading";
+	//  newparagraph.innerHTML= "This is a paragraph";
+
+	//  document.getElementById('div').appendChild(newHeading);
+	//  document.getElementById('div').appendChild(newparagraph);
+
+
+
+
+	  function createHead(){
+	  	 var  newHeading=document.CreateElement('h1');
+	 var  newparagraph=document.CreateElement('p');
+
+	 newHeading.innerHTML = "This is a heading";
+	  newparagraph.innerHTML= "This is a paragraph";
+
+	  document.getElementById('div').appendChild(newHeading);
+	  document.getElementById('div').appendChild(newparagraph);
+
+	  }
+	  document.getElementById('btn').onclick =function() {
+	  	// body...
+
+	  	createHead();
+	  }
+
+</script>
+
+
+
+
+
+</body>
+</html>
